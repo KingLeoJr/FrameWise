@@ -1,118 +1,149 @@
-# FrameWise: AI Framework Selector
+# FrameWise: AI Framework Selector - Your Ultimate AI Framework Guide
 
-FrameWise is a tool designed to help you select the most suitable AI framework for your specific use case. It evaluates frameworks based on criteria such as throughput, latency, scalability, security, ease of use, model support, and cost efficiency.
+FrameWise is an advanced **AI framework selection tool** designed to help developers, researchers, and organizations identify the most **optimal AI framework** for their projects. Leveraging key evaluation metrics such as **throughput**, **latency**, **scalability**, **security**, **ease of use**, **model support**, and **cost efficiency**, FrameWise ensures a **data-driven and structured approach** to decision-making for your AI initiatives.
 
-## Objective
+## 🌟 Why Choose FrameWise?
 
-The objective of FrameWise is to provide a structured and data-driven approach to selecting the best AI framework for your project. By analyzing your use case and evaluating frameworks against predefined criteria, FrameWise ensures that you make an informed decision.
-
-## Features
-
-- **Use Case Analysis**: Evaluate your use case against predefined criteria.
-- **Framework Comparison**: Compare popular AI frameworks like SGLang, NVIDIA NIM, vLLM, Mistral.rs, and FastChat.
-- **Criteria-Based Selection**: Select frameworks based on throughput, latency, scalability, security, ease of use, model support, and cost efficiency.
-- **Customizable Input**: Add your own use case description if it’s not in the pre-populated list.
-
-## Installation
-
-Follow these steps to set up FrameWise on your local machine.
-
-### Prerequisites
-
-- Python 3.11 or higher
-- Git (optional, for cloning the repository)
-
-### Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/KingLeoJr/FrameWise.git
-cd FrameWise
-Step 2: Create a Virtual Environment
-Create a virtual environment to isolate dependencies:
-
-bash
-Copy
-python -m venv venv
-Activate the virtual environment:
-
-On Windows:
-
-bash
-Copy
-venv\Scripts\activate
-On macOS/Linux:
-
-bash
-Copy
-source venv/bin/activate
-Step 3: Install Dependencies
-Install the required Python packages:
-
-bash
-Copy
-pip install -r requirements.txt
-Step 4: Set Up the .env File
-Create a .env file in the root directory of the project and add your environment variables. For example:
-
-plaintext
-Copy
-API_KEY=your_api_key_here
-Replace your_api_key_here with your actual API key.
-
-Step 5: Run the Application
-Start the Streamlit application:
-
-bash
-Copy
-streamlit run app.py
-Open your browser and navigate to the provided URL (usually http://localhost:8501).
-
-Usage
-Select a Use Case: Choose a use case from the dropdown or enter your own.
-
-Submit: Click the "Submit" button to evaluate the most suitable AI framework.
-
-View Results: The recommended framework and evaluation criteria will be displayed in a table.
-
-Contributing
-Contributions are welcome! If you’d like to contribute, please follow these steps:
-
-Fork the repository.
-
-Create a new branch (git checkout -b feature/YourFeatureName).
-
-Commit your changes (git commit -m 'Add some feature').
-
-Push to the branch (git push origin feature/YourFeatureName).
-
-Open a pull request.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments
-Thanks to the Streamlit team for the amazing framework.
-
-Special thanks to the open-source community for their contributions.
-
-For any questions or issues, please open an issue on the GitHub repository.
-
-Copy
+FrameWise stands out by providing a **comprehensive solution** for AI framework selection, ensuring you make an **informed decision** that aligns with your **technical and business goals**. Whether you're working on **machine learning models**, **NLP applications**, or **deep learning frameworks**, FrameWise has you covered.
 
 ---
 
-### **How to Use**
+## 🎯 Objective
 
-1. **Copy the Entire Block**:
-   - Select the entire content above and copy it.
+The primary goal of FrameWise is to simplify the AI framework selection process by providing:
+- **Data-driven recommendations** tailored to your project needs.
+- A **structured evaluation** of popular frameworks like **SGLang**, **NVIDIA NIM**, **vLLM**, **Mistral.rs**, and **FastChat**.
+- An intuitive interface for customizing your framework evaluation.
 
-2. **Paste into `README.md`**:
-   - Open a text editor (e.g., Notepad, VS Code).
-   - Create a new file and paste the copied content.
-   - Save the file as `README.md` in the root directory of your project.
+---
 
-3. **Add and Commit the `README.md` File**:
+## 🚀 Features
+
+- **In-Depth Use Case Analysis**: Tailor recommendations based on your specific project requirements.
+- **Comprehensive Framework Comparison**: Evaluate and compare top AI frameworks.
+- **Criteria-Based Selection**: Optimize selection using metrics like **throughput**, **latency**, **scalability**, **security**, and more.
+- **Customizable Input**: Add and evaluate unique use cases not included in the default list.
+- **User-Friendly Interface**: Powered by **Streamlit** for an intuitive and seamless user experience.
+
+---
+
+## 🛠️ Installation
+
+Get started with FrameWise in just a few simple steps:
+
+### Prerequisites
+- **Python 3.11 or higher**
+- **Git** (optional, for cloning the repository)
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/KingLeoJr/FrameWise.git
+cd FrameWise
+```
+
+### 2️⃣ Create a Virtual Environment
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment:
+
+- On **Windows**:
+  ```bash
+  venv\Scripts\activate
+  ```
+- On **macOS/Linux**:
+  ```bash
+  source venv/bin/activate
+  ```
+
+### 3️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Set Up the Environment
+Create a `.env` file in the project root directory and add your API key:
+```plaintext
+API_KEY=your_api_key_here
+```
+
+### 5️⃣ Run the Application
+Launch the **Streamlit** app:
+```bash
+streamlit run app.py
+```
+
+Navigate to `http://localhost:8501` in your browser.
+
+---
+
+## 📖 Usage
+
+1. **Select a Use Case**: Choose from predefined use cases or enter your own.
+2. **Submit**: Click "Submit" to analyze and compare frameworks.
+3. **View Results**: See recommendations and a breakdown of evaluation criteria.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions to FrameWise! Here’s how you can get involved:
+
+1. Fork the repository.
+2. Create a new branch:
    ```bash
-   git add README.md
-   git commit -m "Add README.md file"
-   git push origin main
+   git checkout -b feature/YourFeatureName
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add your feature'
+   ```
+4. Push your changes:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. Open a **pull request**.
+
+---
+
+## 📜 License
+
+FrameWise is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙌 Acknowledgments
+
+- Thanks to the **Streamlit** team for their incredible framework.
+- Gratitude to the **open-source community** for their invaluable contributions.
+
+---
+
+## 📚 FAQs
+
+### 1. **What is FrameWise?**
+FrameWise is a tool that helps you select the most suitable AI framework for your project by evaluating frameworks based on key metrics.
+
+### 2. **Which frameworks does FrameWise support?**
+FrameWise supports popular AI frameworks like **SGLang**, **NVIDIA NIM**, **vLLM**, **Mistral.rs**, and **FastChat**.
+
+### 3. **How does FrameWise evaluate frameworks?**
+FrameWise evaluates frameworks using metrics such as **throughput**, **latency**, **scalability**, **security**, **ease of use**, **model support**, and **cost efficiency**.
+
+### 4. **Can I add my own use case?**
+Yes! FrameWise allows you to input and evaluate custom use cases.
+
+### 5. **How do I set up FrameWise locally?**
+Follow the **Installation** steps above to set up FrameWise on your machine.
+
+### 6. **How can I contribute to FrameWise?**
+Check out the **Contributing** section to learn how you can contribute to the project.
+
+---
+
+
+
+**AI framework selector**, **best AI framework comparison**, **open-source AI tools**, **AI framework evaluation**, **machine learning framework selection**, **Streamlit AI app**, **AI framework scalability**, **top AI tools 2024**, **AI project optimization**, **cost-efficient AI frameworks**.
+
+**FrameWise** is your one-stop solution for finding the perfect AI framework for your next project. Get started today and streamline your AI development process!
