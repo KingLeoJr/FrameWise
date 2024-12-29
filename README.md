@@ -147,3 +147,6 @@ Check out the **Contributing** section to learn how you can contribute to the pr
 **AI framework selector**, **best AI framework comparison**, **open-source AI tools**, **AI framework evaluation**, **machine learning framework selection**, **Streamlit AI app**, **AI framework scalability**, **top AI tools 2024**, **AI project optimization**, **cost-efficient AI frameworks**.
 
 **FrameWise** is your one-stop solution for finding the perfect AI framework for your next project. Get started today and streamline your AI development process!
+
+
+Be a king and star this repo.
